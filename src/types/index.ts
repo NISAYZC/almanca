@@ -3,12 +3,26 @@ export type Level = "A1" | "A2";
 export interface Phrase {
   de: string;
   tr: string;
+  example?: string; // Örnek cümle kullanımı
+  note?: string; // Özel not
 }
 
 export interface MiniExercise {
   question: string;
   options: string[];
   correctIndex: number;
+  explanation?: string; // Doğru cevap açıklaması
+}
+
+export interface LessonDetail {
+  id: string;
+  title: string;
+  order: number;
+  explanationTr: string; // Detaylı açıklama
+  grammarNotes?: string[]; // Gramer notları
+  examples: Phrase[]; // Örnek cümleler
+  usageTips?: string[]; // Kullanım ipuçları
+  exercises?: MiniExercise[]; // Bu alt konuya özel alıştırmalar
 }
 
 export interface Unit {
@@ -19,6 +33,7 @@ export interface Unit {
   topics: string[];
   phrases: Phrase[];
   miniExercise?: MiniExercise[];
+  lessons?: LessonDetail[]; // Detaylı alt konular
 }
 
 export interface WordMatchItem {
