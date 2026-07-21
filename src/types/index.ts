@@ -59,12 +59,23 @@ export interface QuizItem {
   unitId: string;
 }
 
+/** Platform / aksiyon oyunları için kelime */
+export interface MarioWord {
+  id: string;
+  de: string;
+  tr: string;
+  emoji: string;
+}
+
 export interface Progress {
   completedUnits: string[];
   bestScores: {
     wordMatch?: number;
     sentenceBuilder?: number;
     quiz?: number;
+    coinRunner?: number;
+    platform?: number;
+    pipeLeap?: number;
   };
 }
 

@@ -11,7 +11,7 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="text-center space-y-4">
           <p className="text-lg font-medium">
-            Üniversite öğrencileri için Almanca oyun alanı
+            Her yaşa Almanca oyun alanı — koş, zıpla, kelime topla!
           </p>
           <p className="text-sm text-gray-400">
             Hazırlayan: Selami Öktem
