@@ -47,7 +47,7 @@ const HomeSection = () => {
         <div className="text-center space-y-8">
           <div className="mb-4">
             <h2 className="text-2xl md:text-3xl font-semibold text-blue-600 mb-2">
-              Selami'nin Almanca Sitesi
+              Nisa'nın Almanca Sitesi
             </h2>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900">

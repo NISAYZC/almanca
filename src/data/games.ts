@@ -156,9 +156,9 @@ export const sentenceBuilderItems: SentenceBuilderItem[] = [
   },
   {
     id: "sb5",
-    deCorrect: "Mein Name ist Selami",
-    deShuffledWords: ["ist", "Mein", "Selami", "Name"],
-    trHint: "Benim adım Selami",
+    deCorrect: "Mein Name ist Nisa",
+    deShuffledWords: ["ist", "Mein", "Nisa", "Name"],
+    trHint: "Benim adım Nisa",
     unitId: "unit-1"
   },
   {

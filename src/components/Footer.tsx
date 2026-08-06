@@ -14,7 +14,7 @@ const Footer = () => {
             Her yaşa Almanca oyun alanı — koş, zıpla, kelime topla!
           </p>
           <p className="text-sm text-gray-400">
-            Hazırlayan: Selami Öktem
+            Hazırlayan: Nisa
           </p>
           
           <div className="pt-6 border-t border-gray-800">

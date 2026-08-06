@@ -193,7 +193,7 @@ const unit1Lessons: LessonDetail[] = [
       "İsimden sonra virgül kullanılmaz, direkt isim söylenir"
     ],
     examples: [
-      { de: "Ich heiße Selami.", tr: "Benim adım Selami." },
+      { de: "Ich heiße Nisa.", tr: "Benim adım Nisa." },
       { de: "Ich heiße Anna Müller.", tr: "Benim adım Anna Müller." },
       { de: "Hallo, ich heiße Tom.", tr: "Merhaba, benim adım Tom." },
       { de: "Guten Tag, ich heiße Maria.", tr: "İyi günler, benim adım Maria." }
@@ -205,8 +205,8 @@ const unit1Lessons: LessonDetail[] = [
     ],
     exercises: [
       {
-        question: "'Ich heiße Selami' ifadesi ne anlama gelir?",
-        options: ["Ben Selami'yim", "Benim adım Selami", "Selami'yı tanıyorum", "Selami beni çağırıyor"],
+        question: "'Ich heiße Nisa' ifadesi ne anlama gelir?",
+        options: ["Ben Nisa'yım", "Benim adım Nisa", "Nisa'yı tanıyorum", "Nisa beni çağırıyor"],
         correctIndex: 1,
         explanation: "'Ich heiße' 'benim adım' anlamına gelir."
       }
@@ -223,7 +223,7 @@ const unit1Lessons: LessonDetail[] = [
       "Bu yapı biraz daha resmi bir tondur"
     ],
     examples: [
-      { de: "Mein Name ist Selami Öktem.", tr: "Benim adım Selami Öktem." },
+      { de: "Mein Name ist Nisa.", tr: "Benim adım Nisa." },
       { de: "Guten Tag, mein Name ist Anna.", tr: "İyi günler, benim adım Anna." },
       { de: "Mein Name ist Thomas Schmidt.", tr: "Benim adım Thomas Schmidt." },
       { de: "Entschuldigung, mein Name ist Lisa.", tr: "Özür dilerim, benim adım Lisa." }
@@ -853,7 +853,7 @@ const unit1Lessons: LessonDetail[] = [
       "Resmi: 'Guten Tag, hier spricht...' (İyi günler, ... konuşuyor)"
     ],
     examples: [
-      { de: "Hallo, hier ist Selami.", tr: "Merhaba, ben Selami." },
+      { de: "Hallo, hier ist Nisa.", tr: "Merhaba, ben Nisa." },
       { de: "Guten Tag, hier spricht Anna Müller.", tr: "İyi günler, Anna Müller konuşuyor. (resmi)" },
       { de: "Auf Wiederhören!", tr: "Tekrar görüşürüz! (telefonda)" },
       { de: "Bis bald, tschüss!", tr: "Yakında görüşürüz, hoşça kal! (samimi, telefonda)" }
@@ -914,8 +914,8 @@ const unit1Lessons: LessonDetail[] = [
     ],
     examples: [
       { 
-        de: "A: Guten Tag!\nB: Guten Tag!\nA: Ich heiße Selami. Wie heißen Sie?\nB: Ich heiße Anna. Freut mich!\nA: Freut mich auch! Woher kommen Sie?\nB: Ich komme aus Deutschland. Und Sie?\nA: Ich komme aus der Türkei.\nB: Sehr interessant! Auf Wiedersehen!\nA: Auf Wiedersehen!", 
-        tr: "A: İyi günler!\nB: İyi günler!\nA: Benim adım Selami. Adınız ne?\nB: Benim adım Anna. Memnun oldum!\nA: Ben de memnun oldum! Nereden geliyorsunuz?\nB: Almanya'dan geliyorum. Ya siz?\nA: Türkiye'den geliyorum.\nB: Çok ilginç! Güle güle!\nA: Güle güle!" 
+        de: "A: Guten Tag!\nB: Guten Tag!\nA: Ich heiße Nisa. Wie heißen Sie?\nB: Ich heiße Anna. Freut mich!\nA: Freut mich auch! Woher kommen Sie?\nB: Ich komme aus Deutschland. Und Sie?\nA: Ich komme aus der Türkei.\nB: Sehr interessant! Auf Wiedersehen!\nA: Auf Wiedersehen!",
+        tr: "A: İyi günler!\nB: İyi günler!\nA: Benim adım Nisa. Adınız ne?\nB: Benim adım Anna. Memnun oldum!\nA: Ben de memnun oldum! Nereden geliyorsunuz?\nB: Almanya'dan geliyorum. Ya siz?\nA: Türkiye'den geliyorum.\nB: Çok ilginç! Güle güle!\nA: Güle güle!"
       }
     ],
     usageTips: [
@@ -963,7 +963,7 @@ export const unit1Detailed: Unit = {
     { de: "Guten Morgen", tr: "Günaydın", example: "Guten Morgen, schönen Tag!", note: "Sabah 12'ye kadar" },
     { de: "Guten Tag", tr: "İyi günler", example: "Guten Tag, kann ich helfen?", note: "Öğleden sonra" },
     { de: "Guten Abend", tr: "İyi akşamlar", example: "Guten Abend, willkommen!", note: "Akşam 18:00'dan sonra" },
-    { de: "Ich heiße...", tr: "Benim adım...", example: "Ich heiße Selami.", note: "En yaygın tanışma" },
+    { de: "Ich heiße...", tr: "Benim adım...", example: "Ich heiße Nisa.", note: "En yaygın tanışma" },
     { de: "Mein Name ist...", tr: "Benim adım...", example: "Mein Name ist Anna.", note: "Biraz daha resmi" },
     { de: "Wie geht's?", tr: "Nasılsın?", example: "Hallo, wie geht's?", note: "Samimi" },
     { de: "Gut, danke", tr: "İyiyim, teşekkürler", example: "Wie geht's? - Gut, danke!", note: "En yaygın cevap" },

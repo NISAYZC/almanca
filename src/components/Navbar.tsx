@@ -103,7 +103,7 @@ const Navbar = () => {
                 </svg>
               </div>
               <div className="flex flex-col">
-                <span className="leading-tight">Selami'nin</span>
+                <span className="leading-tight">Nisa'nın</span>
                 <span className="leading-tight text-blue-600 group-hover:text-blue-700">
                   Almanca Sitesi
                 </span>
