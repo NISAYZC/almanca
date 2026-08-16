@@ -5,6 +5,7 @@ import QuizGame from "./games/QuizGame";
 import CoinRunnerGame from "./games/CoinRunnerGame";
 import PlatformAdventureGame from "./games/PlatformAdventureGame";
 import PipeLeapGame from "./games/PipeLeapGame";
+import SpaceBattleGame from "./games/SpaceBattleGame";
 
 type GameType =
   | "menu"
@@ -13,7 +14,8 @@ type GameType =
   | "quiz"
   | "coinrunner"
   | "platform"
-  | "pipeleap";
+  | "pipeleap"
+  | "spacebattle";
 
 const GamesSection = () => {
   const [currentGame, setCurrentGame] = useState<GameType>("menu");
@@ -61,6 +63,13 @@ const GamesSection = () => {
       icon: "🟢",
       badge: "Zıpla",
     },
+    {
+      id: "spacebattle" as GameType,
+      title: "Mini Uzay Savaşı",
+      description: "Uzay geminle uç, doğru Almanca kelimeleri vur, düşmanları yok et!",
+      icon: "🚀",
+      badge: "Uzay",
+    },
   ];
 
   if (currentGame !== "menu") {
@@ -83,6 +92,7 @@ const GamesSection = () => {
           {currentGame === "coinrunner" && <CoinRunnerGame />}
           {currentGame === "platform" && <PlatformAdventureGame />}
           {currentGame === "pipeleap" && <PipeLeapGame />}
+          {currentGame === "spacebattle" && <SpaceBattleGame />}
         </div>
       </section>
     );
@@ -122,7 +132,7 @@ const GamesSection = () => {
         <p className="text-sm text-gray-600 mb-6">
           Mario tarzı hareketli sahneler — klavye veya dokunmatik kontrollerle oyna
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {actionGames.map((game) => (
             <button
               key={game.id}
